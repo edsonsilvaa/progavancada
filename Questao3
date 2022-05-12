@@ -1,0 +1,7 @@
+Questao 3
+As alternativas que são ilegais são: 
+a. p = i; Ilegal 
+d. i = (*&)j; Ilegal
+g. q = *p; Ilegal
+h. i = (*p)++ + *q; Ilegal
+
