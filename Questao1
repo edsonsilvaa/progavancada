@@ -7,7 +7,7 @@ q = &j;
 Determine o valor das seguintes expressões
 
 p == &i
-Verdadeiro.
+1
 
 *p - *q:
 -2.
