@@ -1,0 +1,10 @@
+Questao 11
+
+a. aloha[2] = value; É válido
+b. scanf("%f", &aloha); É inválido
+c. aloha = "value"; É inválido
+d. printf("%f", aloha); É inválido
+e. coisas[4][4] = aloha[3]; É válido
+f. coisas[5] = aloha; É inválido
+g. pf = value; É válido
+h. pf = aloha; É válido
