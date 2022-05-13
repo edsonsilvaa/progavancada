@@ -1,0 +1,9 @@
+Questao 7
+
+a. p = mat + 1; - É válido, pointer P recebe o resultado da operação do endereço de mat + 1.
+
+b. p = mat++; - É inválido, Está ocorrendo o incremetado +1 ao vetor mate e não ao ponteiro P.
+
+p = ++mat; - É inválido, pois está ocorrendo o incremetado +1 ao vetor mate e não ao ponteiro P
+
+x = (*mat)++; - É válido, mat é primeiro desrreferenciado e depois é incrementado o valor do vetor na poscição inicial;
