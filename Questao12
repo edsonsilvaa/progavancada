@@ -1,0 +1,30 @@
+Questão 12
+Os pointers são variaveis que contém endereços de memoria. Eles tem uma aplicabilidade bastante interessante para programas em sistemas embarcados, 
+permite maior portabilidade, flexibilidade na manipulacao de variaveis em partes distintas do programa. 
+Além disso são usados como suporte nas rotinas de alocação dinâmica.
+
+Exemplo:
+#include <stdio.h>
+
+void inc (int *n)
+{
+   (*n)++ ;
+}
+
+int main ()
+{
+   void (*fp) (int *) ;         // função pointer
+   fp = inc ;                   
+
+   int a = 0 ;
+
+   printf ("a vale %d\n", a) ;
+   inc(&a) ;                    // chamada normal
+
+   printf ("a vale %d\n", a) ;
+   fp(&a) ;                     // chamada usando a função pointer
+
+   printf ("a vale %d\n", a) ;
+
+   return (0) ;
+}
